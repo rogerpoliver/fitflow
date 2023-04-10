@@ -13,19 +13,19 @@
     "url": "git+https://github.com/rogerpoliver/fitflow.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "@rogerpoliver",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rogerpoliver/fitflow/issues"
   },
   "homepage": "https://github.com/rogerpoliver/fitflow#readme",
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "tsup": "^6.7.0",
-    "tsx": "^3.12.6",
-    "typescript": "^5.0.4"
+    "@types/node": "18.15.11",
+    "tsup": "6.7.0",
+    "tsx": "3.12.6",
+    "typescript": "5.0.4"
   },
   "dependencies": {
-    "fastify": "^4.15.0"
+    "fastify": "4.15.0"
   }
 }

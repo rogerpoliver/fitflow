@@ -17,9 +17,8 @@ export async function register (
       name, email, password
     })
   } catch (err) {
-    return await reply.status(409).send({
-      message: err
-    })
+    console.log(err)
+    return await reply.status(409).send(err)
   }
 
   return await reply.status(201).send()
